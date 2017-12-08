@@ -1,0 +1,59 @@
+/*STYLE*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+
+div {
+    padding: 12rem 0 3rem 0;
+}
+
+img {
+    padding-top: 10rem;    
+}
+.bg-sunny, .night, .dawn {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.k-small, .k-medium, .k-large {
+    display: block;
+    margin: auto;
+}
+
+/*MEDIA QUERY WITH MEDIA TYPE*/
+ /*GRID MÓVIL*/
+ @media screen and (max-width:640px) {
+    .dawn {
+        background-image: url("../assets/images/dawn.png");
+      }
+
+      .k-large {
+        content: url("../assets/images/kitten-large.png");
+        width: 100%;        
+      }
+ }
+    
+/*GRID TABLET*/
+@media screen and (max-width:1024px) and (min-width:640px) {
+    .night {
+        background-image: url("../assets/images/night.jpg");
+      }
+
+    .k-small {
+        content: url("../assets/images/kitten-small.png");
+    }
+ }
+
+/*GRID DESKTOP Esto hace que sea responsive*/
+@media screen and (min-width:1024px) {
+    .bg-sunny {
+        background-image: url("../assets/images/sunny-day.jpg");
+      }
+
+	.k-medium {
+        content: url("../assets/images/kitten-medium.png");
+	}
+ }
