@@ -20,5 +20,7 @@
 
 * Vista desde la ventana del navegador a medida se haga más pequeña.
 
-![recursos](assets/images/final.gif)
+![recursos](assets/images/1.png)
+![recursos](assets/images/2.png)
+![recursos](assets/images/3.png)
 
